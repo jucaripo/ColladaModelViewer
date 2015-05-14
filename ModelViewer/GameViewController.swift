@@ -16,8 +16,9 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         // ejemplo animado
         //sceneView.scene = SCNScene(named: "art.scnassets/animado");
-        // ejemplo textura
-        sceneView.scene = SCNScene(named: "art.scnassets/mushroom");
+        // ejemplo textura sceneView.scene = SCNScene(named: "art.scnassets/mushroom");
         // ejemplo objeto   sceneView.scene = SCNScene(named: "art.scnassets/sword");
+        // ejemplo NSCoders Model
+        sceneView.scene = SCNScene(named: "art.scnassets/NSCoders");
     }
 }
